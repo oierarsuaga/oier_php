@@ -29,6 +29,6 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
   <body>
-
+    <a href='pagina.html'> Login </a>
   </body>
 </html>
