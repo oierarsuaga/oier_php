@@ -17,9 +17,9 @@ if ($conn->connect_error) {
 }
 
 $user =  $_POST['user'];
-$password = $_POST['password']
+$password = $_POST['password'];
 
-$sql = "SELECT * FROM datos WHERE user = '$user'";
+$sql = "SELECT * FROM datos WHERE usuario = '$user'";
 
 
 /*$user1 = "koxme";
@@ -32,18 +32,15 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
-    if ($user == $row["user"]){
-        if (password_verify($password, $row["password"])) {
-            echo "OK";
+    /*var_dump($row);*/
+    if ($user == $row["usuario"]){
+        if ($password== $row["password"]) {
+      //     echo "OK";
+      header("Location: admin.php");
         } else{
-            echo "KO";
+            echo "KO";  }
+          }
         }
-    } else {
-        echo "KO";
-    }
-} else {
-    echo "KO";
-}
 
 $conn->close();
 /*$user =  $_POST['user'];
