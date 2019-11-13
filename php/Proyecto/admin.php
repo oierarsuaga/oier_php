@@ -21,7 +21,7 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
-echo "<br> <a href='insert.php'><button> Insert </button></a> </br>";
+echo "<br> <a href='insert.html'><button> Insert </button></a> </br>";
 echo "<br> <a href='i'><button> Delete </button></a> </br>";
 echo "<br> <a href=''><button> Update </button></a> </br>";
 $conn->close();
