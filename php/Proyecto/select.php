@@ -16,12 +16,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 //
-$sql = "SELECT * FROM comentario";
+$sql = "SELECT * FROM blog";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-     echo "id: " . $row["id"].  "<br> titulo: " . $row["titulo"]. "<br> <img width='20%' src=imagenes/" . $row["imagen"] .">  <br> informacion: " . $row["informacion"];
+     echo "<br> id: " . $row["id"].  "<br> title: " . $row["title"]. "<br> <img width='20%' src=imagenes/" . $row["img"] .">  <br> info: " . $row["info"];
     }
 } else {
     echo "0 results";
