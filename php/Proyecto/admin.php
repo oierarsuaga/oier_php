@@ -22,7 +22,7 @@ if ($result->num_rows > 0) {
 }
 
 echo "<br> <a href='insert.html'><button> Insert </button></a> </br>";
-echo "<br> <a href=''><button> Delete </button></a> </br>";
+echo "<br> <a href='delete.html'><button> Delete </button></a> </br>";
 echo "<br> <a href='update.html'><button> Update </button></a> </br>";
 $conn->close();
  ?>
