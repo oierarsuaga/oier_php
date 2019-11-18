@@ -12,6 +12,7 @@ if ($conn->connect_error) {
 }
 //
 
+
 $sql = "SELECT * FROM blog";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -19,15 +20,16 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         echo "id: " . $row["id"]. "<br> title: " . $row["title"]. "<br> info:" . $row["info"]. "<br> img: " . $row["img"];
         ?>
-        <form action="delete.php" method="POST">
+        <form action="delete1.php" method="POST">
             <input type="hidden" name="id" value="<?php echo $row["id"]?>">
             <input type="submit" value="Delete">
         </form>
         <hr/>
         <?php
     }
-} else {
-    echo "0 results";
 }
 $conn->close();
+
 ?>
+<br>
+<a href="admin.php">EXIT</a>
