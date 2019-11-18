@@ -11,12 +11,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$title = $_POST['id'];
+$id = $_POST['id'];
 $title = $_POST['title'];
 $info =  $_POST['info'];
 $img = $_POST['img'];
 
-$sql = "INSERT INTO blog (title, info, img) values('$title','$info','$img')";
+$sql = "UPDATE blog (id, title, info, img) values('$id','$title','$info','$img')";
 $result = $conn->query($sql);
 
 if ($conn->query($sql) === TRUE) {
