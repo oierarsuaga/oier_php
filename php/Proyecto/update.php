@@ -16,8 +16,10 @@ $title = $_POST['title'];
 $info =  $_POST['info'];
 $img = $_POST['img'];
 
-$sql = "UPDATE blog (id, title, info, img) values('$id','$title','$info','$img')";
-$result = $conn->query($sql);
+$sql = "UPDATE blog SET title = '$title', info = '$info' , img = '$img' WHERE id = '$id'";
+
+/*echo $sql;
+$result = $conn->query($sql);*/
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
