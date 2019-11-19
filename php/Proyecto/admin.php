@@ -15,14 +15,11 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-     echo "<br> id: " . $row["id"].  "<br> title: " . $row["title"]. "<br> <img width='20%' src=imagenes/" . $row["img"] .">  <br> info: " . $row["info"];
+     echo "<br> <h1>title</</h1>--><h1>" . $row["title"]. "</h1><br> <img width='33%' src=imagenes/" . $row["img"] .">  <br> info: " . $row["info"];
 ?>
 
 
 <form action="update.php" method="POST">
-  id:<br>
-  <input type="text" name="id" value="<?php echo $row["id"]?>">
-  <br>
   title:<br>
   <input type="text" name="title" value="<?php echo $row["title"]?>">
   <br>
