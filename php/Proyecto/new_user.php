@@ -17,10 +17,10 @@ $npassword =  $_POST['password'];
 $sql = "INSERT INTO datos (usuario, password) values('$nuser','$npassword')";
 $result = $conn->query($sql);
 
-if ($conn->query($sql) === TRUE) {
+/*if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
-}
+}*/
 header("Location:pagina.html");
 ?>

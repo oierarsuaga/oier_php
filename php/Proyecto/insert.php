@@ -18,10 +18,10 @@ $img = $_POST['img'];
 $sql = "INSERT INTO blog (title, info, img) values('$title','$info','$img')";
 $result = $conn->query($sql);
 
-if ($conn->query($sql) === TRUE) {
+/*if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
-}
+}*/
 header("Location:admin.php");
 ?>
