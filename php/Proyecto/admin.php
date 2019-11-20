@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+    </style>
+
+  </head>
 <?php
 $servername = "localhost";
 $username = "root";
@@ -38,8 +59,15 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
-echo "<br> <a href='insert.html'><button> Insert </button></a> </br>";
+/*echo "<br> <a href='insert.html'><button> Insert </button></a> </br>";
 echo "<br> <a href='delete.php'><button> Delete </button></a> </br>";
-/*echo "<br> <a href='update.html'><button> Update </button></a> </br>";*/
+echo "<br> <a href='pagina.html'><button> Cerrar sesion </button></a> </br>";*/
+
+
 $conn->close();
  ?>
+<body>
+  <br><a href='insert.html'> Insert </a></br>
+  <br><a href='delete.php'> Delete </a></br>
+  <br><a href='pagina.html'> Cerrar sesion </a></br>
+</body>
