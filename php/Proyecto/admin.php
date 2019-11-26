@@ -41,6 +41,8 @@ if ($result->num_rows > 0) {
 
 
 <form action="update.php" method="POST">
+  <input type="text" name="id" value="<?php echo $row["id"]?>">
+  <br>
   title:<br>
   <input type="text" name="title" value="<?php echo $row["title"]?>">
   <br>
