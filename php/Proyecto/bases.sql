@@ -11,3 +11,5 @@ create table blog(
   usuario varchar (50),
   password varchar (50),
 );
+
+insert into blog(usuario,password) values('koxme','k1');
