@@ -8,7 +8,13 @@ CREATE TABLE `blog` (
   `img` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+ALTER TABLE `blog`
+  ADD PRIMARY KEY (`id`);
 
+
+ALTER TABLE `blog`
+  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+COMMIT;
 
 INSERT INTO `blog` (`id`, `title`, `info`, `img`) VALUES
 (1, 'God Of War', 'God of War es una serie de videojuegos en 3Âª. persona', 'god.png'),
@@ -33,10 +39,16 @@ INSERT INTO `datos` (`usuario`, `password`) VALUES
 ('aitor', 'aitor');
 
 
-ALTER TABLE `blog`
-  ADD PRIMARY KEY (`id`);
+CREATE TABLE `comentarios` (
+  `id_Com` mediumint(9) NOT NULL,
+  `usuario` varchar(100) NOT NULL,
+  `text` varchar(250) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+ALTER TABLE `comentarios`
+  ADD PRIMARY KEY (`id_Com`);
+  ADD
 
-ALTER TABLE `blog`
-  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+ALTER TABLE `comentarios`
+  MODIFY `id_Com` mediumint(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;

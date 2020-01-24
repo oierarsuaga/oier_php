@@ -47,6 +47,19 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }
+
+$sql = "SELECT * FROM comentarios";
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+     echo "<br>  usuario</-->" . $row["usuario"]. ">  <br><br> texto: " . $row["comentario"];
+    }
+} else {
+    echo "0 results";
+}
+
+
 $conn->close();
 ?>
   <body>
