@@ -16,16 +16,26 @@
 a:hover, a:active {
   background-color: red;
 }
+
+/*.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /*background-color: DodgerBlue;
+}*/
+
+/*.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}*/
+
     </style>
 
   </head>
 <?php
-
-if (!function_exists('mysqli_init') && !extension_loaded('mysqli')) {
-  echo 'We don\'t have mysqli!!!';
-} else {
-  echo 'Phew we have it!';
-}
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -37,12 +47,13 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 //
+
 $sql = "SELECT * FROM blog";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-     echo "<br>  <h1>TITULO</</h1>--><h1>" . $row["title"]. "</h1><br> <img width='33%' src=imagenes/" . $row["img"] .">  <br><br> Informacion: " . $row["info"];
+     echo "<div class='flex-container'><br> <h1>title</</h1>--><h1>" . $row["title"]. "</h1><br> <img width='33%' src=imagenes/" . $row["img"] .">  <br> info: " . $row["info"] .  "</div>";
     }
 } else {
     echo "0 results";
