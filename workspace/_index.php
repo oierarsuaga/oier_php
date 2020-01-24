@@ -41,6 +41,8 @@
 
 
       ?>
+      
+  <br><a href='delete.php'> Delete </a></br>
 
 
   </body>

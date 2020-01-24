@@ -53,4 +53,4 @@ $conn->close();
 
 ?>
 <br>
-<a href="_index.php">EXIT</a>
+<a href="admin.php">EXIT</a>
