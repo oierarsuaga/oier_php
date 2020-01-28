@@ -40,7 +40,7 @@ $result = $mysqli -> query($query);
 if ($result->num_rows > 0) {
     // session
     session_start();
-    $_SESSION['user'] = $user;
+    $_SESSION['x'] = 1;
     header('Location: '."_index.php");
 
     //header('Location: '."listar.php");

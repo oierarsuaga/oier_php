@@ -61,6 +61,6 @@ $conn->close();
   <body>
     <br>
     <br>
-    <br><a href='pagina.html'> Login </a></br>
+    <br><a href='login.html'> Login </a></br>
   </body>
 </html>
