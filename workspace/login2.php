@@ -41,7 +41,7 @@ if ($result->num_rows > 0) {
     // session
     session_start();
     $_SESSION['x'] = 1;
-    header('Location: '."_index.php");
+    header('Location: '."admin.php");
 
     //header('Location: '."listar.php");
 } else {
