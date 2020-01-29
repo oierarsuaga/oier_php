@@ -88,5 +88,7 @@ $conn->close();
 <body>
   <br><a href='insert.html'> Insert_articulo </a></br>
   <br><a href='delete.php'> Delete_articulo </a></br>
+  <br><a href='insert_com.php'> Insert_comentarios </a></br>
+  <br><a href=''> Delete_comentarios </a></br>
   <br><a href='pag_prin.php'> Cerrar sesion </a></br>
 </body>

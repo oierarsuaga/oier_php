@@ -1,8 +1,4 @@
 <?php include "config.php";
-session_start();
-if ($_SESSION['x'] != 1) {
-    header('Location: '."login.html");
-}
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -27,8 +23,7 @@ echo "<br><br><br><br><br><br><br><br><br><br><br>";
 echo $row2['usuario'];
 echo "<br><br><br><br><br><br><br><br><br><br><br>";
      ?>
-
-     <certer><form action="insert_com.php" method="post">
+<certer><form action="insert_com.php" method="post">
        <input type="text" name="usuario" placeholder=<?php echo $row2['usuario'] ?>><br><br>
        <input type="text" name="comentario" placeholder="comentario"><br><br>
        <input type="submit" name="enviar" value="Enviar comentario">
