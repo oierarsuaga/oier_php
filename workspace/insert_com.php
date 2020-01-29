@@ -51,7 +51,7 @@ header("Location:_index.php");
 
 ?>
 
-$usuario = $_POST['usuario'];
+/*$usuario = $_POST['usuario'];
 $comentario =  $_POST['comentario'];
 if (isset($_POST['enviar'])) {
 $usuario = utf8_decode(mysqli_real_escape_string($conexion, $_POST['usuario']));
@@ -78,4 +78,4 @@ $comentario =  $_POST['comentario'];
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }*/
-//header("Location:admin.php");
+//header("Location:admin.php");*/
