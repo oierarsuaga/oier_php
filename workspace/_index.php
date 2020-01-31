@@ -19,9 +19,7 @@
 
       </div>";
     }
-echo "<br><br><br><br><br><br><br><br><br><br><br>";
-echo $row2['usuario'];
-echo "<br><br><br><br><br><br><br><br><br><br><br>";
+
      ?>
 <certer><form action="insert_com.php" method="post">
        <input type="text" name="usuario" placeholder=<?php echo $row2['usuario'] ?>><br><br>
