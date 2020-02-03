@@ -1,4 +1,4 @@
-CREATE databases assignment;
+CREATE database assignment;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -14,19 +14,6 @@ CREATE TABLE IF NOT EXISTS `comentario` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
-INSERT INTO `roomdetail` (`id`, `username`, `checkin_date`, `checkout_date`, `room_type`, `no_of_room`, `amount`) VALUES
-(2, 'joy@mendis.com', '2014-06-16', '2014-06-20', '250', '5', '1250');
-
-
-
-
-INSERT INTO `roomtype` (`room_id`, `room_type`, `room_price`, `room_seson`) VALUES
-(1, 'Garden view', '100', 'low season'),
-(2, 'Garden view', '200', 'high season'),
-(3, 'Street view', '45', 'low season'),
-(4, 'Street view', '90', 'high season'),
-(5, 'Ocean view', '250', 'low season'),
-(6, 'Ocean view', '500', 'high season');
 
 
 
@@ -49,3 +36,12 @@ CREATE TABLE IF NOT EXISTS `users` (
 INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `day_phone`, `user_name`, `user_password`, `city`, `country`, `payment_type`) VALUES
 (1, 'joy', 'mendis', '8123432111', 'joy@mendis.com', '12345', 'ontario', 'canada', 'paypal');
 COMMIT;
+
+
+create table datos(
+  'id' int(10) NOT NULL AUTO_INCREMENT,
+  'title' varchar (100) NOT NULL,
+  'info' varchar (250) NOT NULL,
+  'img' varchar (100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
