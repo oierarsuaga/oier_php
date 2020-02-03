@@ -46,7 +46,7 @@ if($checkcount>=10)
 ?> <script>alert("Sorry Rooms Are not Available :( please try another Option !!");</script>
 <?php }
 else{
-$s1="INSERT INTO comentario (username,comentarios)VALUES('".$username."','".$comentario."')";
+$s1="INSERT INTO comentario (username,comentario)VALUES('".$username."','".$comentario."')";
 mysqli_query($con,$s1);
 header("location:registration.php");
 }
@@ -62,7 +62,7 @@ header("location:registration.php");
 	<?php if(isset($_GET['success'])){
 		echo '<h4> Your room Booked successfully,You will be contacted soon. !!!</h4>';
 	}?>
-	
+
 	<td><input name="username" type="hidden" value="<?php session_start(); if(isset($_SESSION['username'])){ echo $_SESSION['username']; } ?>"  />
 
 		   <tr>
