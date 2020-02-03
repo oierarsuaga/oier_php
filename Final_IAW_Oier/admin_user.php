@@ -85,7 +85,7 @@ if ($result->num_rows > 0) {
 $conn->close();
  ?>
 <body>
-  <br><a href='insert_com.php'> Insert_comentarios </a></br>
+  <br><a href='registration.php'> Insert_comentarios </a></br>
   <br><a href=''> Delete_comentarios </a></br>
   <br><a href='pag_prin.php'> Cerrar sesion </a></br>
 </body>
