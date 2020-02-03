@@ -6,19 +6,6 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-
-DROP TABLE IF EXISTS `roomdetail`;
-CREATE TABLE IF NOT EXISTS `roomdetail` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `username` varchar(50) NOT NULL,
-  `checkin_date` date NOT NULL,
-  `checkout_date` date NOT NULL,
-  `room_type` varchar(50) NOT NULL,
-  `no_of_room` varchar(50) NOT NULL,
-  `amount` varchar(50) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
-
 DROP TABLE IF EXISTS `comentario`;
 CREATE TABLE IF NOT EXISTS `comentario` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -30,16 +17,6 @@ CREATE TABLE IF NOT EXISTS `comentario` (
 INSERT INTO `roomdetail` (`id`, `username`, `checkin_date`, `checkout_date`, `room_type`, `no_of_room`, `amount`) VALUES
 (2, 'joy@mendis.com', '2014-06-16', '2014-06-20', '250', '5', '1250');
 
-
-
-DROP TABLE IF EXISTS `roomtype`;
-CREATE TABLE IF NOT EXISTS `roomtype` (
-  `room_id` int(11) NOT NULL AUTO_INCREMENT,
-  `room_type` varchar(50) NOT NULL,
-  `room_price` varchar(50) NOT NULL,
-  `room_seson` varchar(50) NOT NULL,
-  PRIMARY KEY (`room_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 
 
 
