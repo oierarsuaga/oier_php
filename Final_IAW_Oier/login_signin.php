@@ -108,9 +108,6 @@
 <div id="contenair">
 <?php
 include('include/db_con.php');
-	session_start();
-if(isset($_POST['Submit']))
-{
 $fn=$_POST['firstname'];
 $ln=$_POST['lastname'];
 $phone=$_POST['daytimephone'];
@@ -125,39 +122,45 @@ if (!mysqli_query($con,$query1))
   {
   echo("Error description: " . mysqli_error($con));
   }
-}
+
 ?>
 <?php
-		if (isset($_POST['username'],$_POST['password']))
-			   {
-                $username=$_POST['username'];
-                $password=$_POST['password'];
 
-                   if (empty($username) || empty($password))
-                   {
-                      $error = 'Hey All fields are required!!';
-                    }
 
-					 else {
-					 $login="select * from users where user_name='".$username."' and user_password ='".$password."'";
-					 $result=mysqli_query($con,$login);
-					if(mysqli_fetch_array($result,MYSQLI_NUM)){
-				 $_SESSION['logged_in']='true';
-				 $_SESSION['username']=$username;
-					 header('Location:admin_user.php');
-					 exit();
-					 } else {
-					 $error='Incorrect details !!';
-					 }
-					       }
-		}
+session_start();
+	if (isset($_POST['username'],$_POST['password']))
+			 {
+							$username=$_POST['username'];
+							$password=$_POST['password'];
+
+								 if (empty($username) || empty($password))
+								 {
+										$error = 'Hey All fields are required!!';
+									}
+
+				 else {
+				 $login="select * from users where user_name='".$username."' and user_password ='".$password."'";
+				 $result=mysqli_query($con,$login);
+
+
+
+				if(mysqli_fetch_array($result,MYSQLI_ASSOC)){
+			 $_SESSION['logged_in']='true';
+			 $_SESSION['username']=$username;
+				 header('Location:admin_user.php');
+				 exit();
+				 } else {
+				 $error='Incorrect details !!';
+				 }
+							 }
+	}
 
   ?>
 <div id="l" align="left">
-<h2  align="center" style="color:red">Welcome to our Hotel </h2>
+<h2  align="center" style="color:red">Hola esto es mi blog </h2>
 <h3 align="center"><u><i>Create A Account For New User....</i></u></h3>
 <table>
- <form method="POST" name="signupform" action="index.php" onSubmit="return signup();" >
+ <form method="POST" name="signupform"  onSubmit="return signup();" >
 		 <tr>
 		<td height="40">FirstName:</td>
 		<td><input name="firstname" type="text" id="firstname" size="40" />
@@ -210,19 +213,13 @@ if (!mysqli_query($con,$query1))
 	</tr>
     <br>
 	<tr>
-		<td>Payment Type:</td>
-		<td><input type="radio" name="usertype" id="usertype1" value="cash" />Cash
-		<input type="radio" name="usertype" id="usertype2" value="paypal" />Paypal/CreditCard
-		</td>
-	</tr>
-	<tr>
 	<td align="center" colspan="2"><input type="submit" name="Submit" value="Submit" />
 		<input type="reset" name="reset" value="Reset"  /></td></tr>
     </form>
    </table>
 </div>
 	<div id="r" align="right">
-	<form action="admin_user.php" method="POST">
+	<form action="login_signin.php" method="POST">
 	<h2 align="center" id="h"><u><i>Login Here........</i></u></h2>
         <table align="center" id="t">
 		<tr> <?php  if (isset($error)) {?>

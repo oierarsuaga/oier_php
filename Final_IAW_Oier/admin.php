@@ -1,9 +1,3 @@
-<?php
-session_start();
-if ($_SESSION['x'] != 1) {
-    header('Location: '."login.html");
-}
-?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -26,10 +20,15 @@ a:hover, a:active {
 
   </head>
 <?php
+include('include/db_con.php');
+/*session_start();
+if ($_SESSION['x'] != 1) {
+    header('Location: '."login_signin.php");
+}*/
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "login";
+$dbname = "assignment";
 // Create connection
 $conn = new mysqli($servername, $username, $password,$dbname);
 // Check connection
@@ -37,7 +36,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 //
-$sql = "SELECT * FROM blog";
+$sql = "SELECT * FROM datos";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
@@ -48,7 +47,7 @@ if ($result->num_rows > 0) {
 ?>
 
 
-<form action="update.php" method="POST">
+<form action="update_art.php" method="POST">
   <input type="text" name="id" value="<?php echo $row["id"]?>">
   <br>
   title:<br>
@@ -69,26 +68,22 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
-/*echo "<br> <a href='insert.html'><button> Insert </button></a> </br>";
-echo "<br> <a href='delete.php'><button> Delete </button></a> </br>";
-echo "<br> <a href='pagina.html'><button> Cerrar sesion </button></a> </br>";*/
-$sql = "SELECT * FROM comentarios";
+$sql = "SELECT * FROM comentario";
 $result = $conn->query($sql);
-if ($result->num_rows > 0) {
+if ($result->num_rows  > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-     echo "<br>  usuario:</-->" . $row["usuario"]. "-->   texto: " . $row["comentario"];
+     echo "<br>  usuario:</-->" . $row["username"]. "-->   texto: " . $row["comentario"];
     }
 } else {
     echo "0 results";
 }
-
+echo "<br> <a href='insert_art.php'><button> Insert </button></a> </br>";
+echo "<br> <a href='delete_art.php'><button> Delete </button></a> </br>";
 $conn->close();
  ?>
 <body>
-  <br><a href='insert.html'> Insert_articulo </a></br>
-  <br><a href='delete.php'> Delete_articulo </a></br>
-  <br><a href='insert_com.php'> Insert_comentarios </a></br>
-  <br><a href=''> Delete_comentarios </a></br>
+  <br><a href='registration.php'> Insert_comentarios </a></br>
+  <br><a href='adminpanal.php'> Cambio_comentarios </a></br>
   <br><a href='pag_prin.php'> Cerrar sesion </a></br>
 </body>

@@ -21,10 +21,10 @@ a:hover, a:active {
   </head>
 <?php
 include('include/db_con.php');
-session_start();
-if ($_SESSION['x'] == 1) {
+/*session_start();
+if (!isset($_SESSION['username'])) {
     header('Location: '."login_signin.php");
-}
+}*/
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -36,6 +36,15 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 //
+?>
+<div>
+	<div>
+	<form action="login_signin.php" method="POST">
+<?php session_start(); if(isset($_SESSION['username'])){ echo $_SESSION['username']; } ?>
+		</form>
+	</div>
+</div>
+<?php
 $sql = "SELECT * FROM datos";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -71,21 +80,39 @@ if ($result->num_rows > 0) {
 /*echo "<br> <a href='insert.html'><button> Insert </button></a> </br>";
 echo "<br> <a href='delete.php'><button> Delete </button></a> </br>";
 echo "<br> <a href='pagina.html'><button> Cerrar sesion </button></a> </br>";*/
-$sql = "SELECT * FROM comentarios";
+
+
+
+$sql = "SELECT * FROM comentario";
 $result = $conn->query($sql);
-if ($result->num_rows > 0) {
+if ($result->num_rows  > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-     echo "<br>  usuario:</-->" . $row["usuario"]. "-->   texto: " . $row["comentario"];
-    }
+     echo "<br>  usuario:</-->" . $row["username"]. "-->   texto: " . $row["comentario"];
+?>
+
+     <form action="update.php" method="POST">
+       <input type="text" name="id" value="<?php echo $row["id"]?>">
+       <br>
+       username:<br>
+       <input type="text" name="username" value="<?php echo $row["username"]?>">
+       <br>
+       comentario:<br>
+       <input type="text" name="comentario" value="<?php echo $row["comentario"]?>">
+       <br>
+       <input type="submit" value="Update">
+     </form>
+<?php
+     }
 } else {
     echo "0 results";
 }
+
 
 $conn->close();
  ?>
 <body>
   <br><a href='registration.php'> Insert_comentarios </a></br>
-  <br><a href=''> Delete_comentarios </a></br>
+  <br><a href='adminpanal.php'> Eliminar_comentarios </a></br>
   <br><a href='pag_prin.php'> Cerrar sesion </a></br>
 </body>

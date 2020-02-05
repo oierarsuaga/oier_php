@@ -17,8 +17,8 @@ a:hover, a:active {
   background-color: red;
 }
     </style>
-
   </head>
+
 <?php
 
 $servername = "localhost";
@@ -32,35 +32,26 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 //
-$sql = "SELECT * FROM datos";
-$result = $conn->query($sql);
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-     echo "<br>  <h1>TITULO</</h1>--><h1>" . $row["title"]. "</h1><br> <img width='33%' src=imagenes/" . $row["img"] .">  <br><br> Informacion: " . $row["info"];
-     echo "<br>";
-    }
-} else {
-    echo "0 results";
-}
+
 
 $sql = "SELECT * FROM comentario";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-     echo "<br>  usuario:</-->" . $row["username"]. "-->   texto: " . $row["comentario"];
+        echo "id: " . $row["id"]. "<br> username: " . $row["username"]. "<br> comentario:" . $row["comentario"];
+        ?>
+        <form action="delete.php" method="POST">
+            <input type="hidden" name="id" value="<?php echo $row["id"]?>">
+            <input type="hidden" name="username" value="<?php echo $row["username"]?>">
+            <input type="submit" value="Delete">
+        </form>
+        <hr/>
+        <?php
     }
-} else {
-    echo "0 results";
 }
-
-
 $conn->close();
+
 ?>
-  <body>
-    <br>
-    <br>
-    <br><a href='login_signin.php'> Login/Sign in </a></br>
-  </body>
-</html>
+<br>
+<a href="admin_user.php">EXIT</a>

@@ -48,7 +48,7 @@ if($checkcount>=10)
 else{
 $s1="INSERT INTO comentario (username,comentario)VALUES('".$username."','".$comentario."')";
 mysqli_query($con,$s1);
-header("location:registration.php");
+header("location:admin_user.php");
 }
 }
 ?>
@@ -57,10 +57,10 @@ header("location:registration.php");
 
 	<div id="r">
 	<form action="registration.php" method="POST">
-	<h2 align="center" id="h"><u><i>Book Room</i></u></h2>
-	<h3> Welcome   <?php session_start(); if(isset($_SESSION['username'])){ echo $_SESSION['username']; } ?> !!!</h3>
+	<h2 align="center" id="h"><u><i>Comentarios</i></u></h2>
+	<h3> Hola   <?php session_start(); if(isset($_SESSION['username'])){ echo $_SESSION['username']; } ?> !!!</h3>
 	<?php if(isset($_GET['success'])){
-		echo '<h4> Your room Booked successfully,You will be contacted soon. !!!</h4>';
+		/*echo '<h4> Your room Booked successfully,You will be contacted soon. !!!</h4>';*/
 	}?>
 
 	<td><input name="username" type="hidden" value="<?php session_start(); if(isset($_SESSION['username'])){ echo $_SESSION['username']; } ?>"  />
@@ -72,11 +72,12 @@ header("location:registration.php");
           </tr>
           <tr>
             <td colspan="2" align="center">
-			<input type="submit" name="sub" value="Pay & Book" /></td>
+			<input type="submit" name="sub" value="comentar" /></td>
             </tr>
 
        </table>
 		</form>
+		<br><a href='admin_user.php'> atras </a></br>
 
 
 
