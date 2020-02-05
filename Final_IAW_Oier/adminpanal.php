@@ -32,7 +32,10 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 //
-
+session_start();
+if (!isset($_SESSION['username'])) {
+    header('Location: '."login_signin.php");
+}
 
 $sql = "SELECT * FROM comentario";
 $result = $conn->query($sql);

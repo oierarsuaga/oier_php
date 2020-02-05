@@ -16,7 +16,7 @@ if ($conn->connect_error) {
   $comentario =  $_POST['comentario'];
 
 
-  $sql = "SELECT * FROM comentario";
+/*  $sql = "SELECT * FROM comentario";
   $result = $conn->query($sql);
   if ($result->num_rows  > 0) {
       // output data of each row
@@ -25,13 +25,13 @@ if ($conn->connect_error) {
 }}
 else {
   $sql = "UPDATE comentario SET comentario = '$comentario' WHERE id = '$id' AND username ='$username'";
-}
+}*/
 
 
 
 
 
-  /*$sql = "UPDATE comentario SET comentario = '$comentario' WHERE id = '$id' AND username ='$username'";
+  $sql = "UPDATE comentario SET comentario = '$comentario' WHERE id = '$id' AND username ='$username'";
 
 
 
