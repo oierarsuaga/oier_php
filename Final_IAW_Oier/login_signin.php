@@ -116,8 +116,11 @@ $pass=$_POST['password1'];
 $city=$_POST['city'];
 $country=$_POST['country'];
 $intr=$_POST['usertype'];
+$hash=password_hash($pass, PASSWORD_DEFAULT);
 
-$query1="INSERT INTO users (first_name,last_name,day_phone,user_name,user_password,city,country,payment_type)VALUES('".$fn."','".$ln."','".$phone."','".$email."','".$pass."','".$city."','".$country."','".$intr."')";
+
+
+$query1="INSERT INTO users (first_name,last_name,day_phone,user_name,user_password,city,country)VALUES('".$fn."','".$ln."','".$phone."','".$email."','".$hash."','".$city."','".$country."')";
 if (!mysqli_query($con,$query1))
   {
   echo("Error description: " . mysqli_error($con));
@@ -132,7 +135,7 @@ session_start();
 			 {
 							$username=$_POST['username'];
 							$password=$_POST['password'];
-
+							$_SESSION['username']=$_POST['username'];
 								 if (empty($username) || empty($password))
 								 {
 										$error = 'Hey All fields are required!!';
@@ -143,15 +146,22 @@ session_start();
 				 $result=mysqli_query($con,$login);
 
 
+				 if (password_verify($pass, $hash)) {
+					 header('Location:admin_user.php');
 
-				if(mysqli_fetch_array($result,MYSQLI_ASSOC)){
-			 $_SESSION['logged_in']='true';
-			 $_SESSION['username']=$username;
-				 header('Location:admin_user.php');
-				 exit();
+				 }
+				 else {
+				     // Invalid credentials
+				     echo "Error!";
+				 }
+				/*if(mysqli_fetch_array($result,MYSQLI_ASSOC)){
+			/* $_SESSION['logged_in']='true';
+			 $_SESSION['username']=$username;*/
+			/*	 header('Location:admin_user.php');*/
+			/*	 exit();
 				 } else {
 				 $error='Incorrect details !!';
-				 }
+			 }*/
 							 }
 	}
 
