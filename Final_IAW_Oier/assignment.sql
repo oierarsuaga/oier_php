@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 
 INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `day_phone`, `user_name`, `user_password`, `city`, `country`, `payment_type`) VALUES
-(1, 'joy', 'mendis', '8123432111', 'joy@mendis.com', '12345', 'ontario', 'canada', 'paypal');
+(1, 'joy', 'mendis', '8123432111', 'oier@mendis.com', '12345', 'ontario', 'canada', 'paypal');
 COMMIT;
 
 
