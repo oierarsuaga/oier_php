@@ -20,13 +20,15 @@
 	</style>
 
 
-
 </head>
 
 <body>
 <?php
 include('include/db_con.php');
 session_start();
+if (!isset($_SESSION['username'])) {
+		header('Location: '."login_signin.php");
+}
 if(isset($_POST['sub']))
 {
 $username=$_POST['username'];

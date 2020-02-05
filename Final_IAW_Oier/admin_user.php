@@ -21,10 +21,10 @@ a:hover, a:active {
   </head>
 <?php
 include('include/db_con.php');
-/*session_start();
+session_start();
 if (!isset($_SESSION['username'])) {
     header('Location: '."login_signin.php");
-}*/
+}
 $servername = "localhost";
 $username = "root";
 $password = "";
