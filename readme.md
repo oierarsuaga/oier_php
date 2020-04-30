@@ -12,6 +12,7 @@ usuario ( windows server 2012 AD ) y los datos que esos usuarios agregan de clie
 Diario:
 
 Dia 1 - 28 de abril
+
 -->Hoy e estado pensando la idea, el esquema de la red y el equipo a utilizar.
 
 Dia 2 - 29 de abril
