@@ -26,6 +26,18 @@ Dia 4 - 5 de Mayo
 
 --> La realizacion del analisis de contexto y empezar a escribir codigo de la web.
 
+Dia 5 - 6 de Mayo
+
+--> Empezar con la conexion entre un ldap encontrado en internet de prueba para ver algun ejemplo.
+
+Dia 6 - 7 de Mayo
+
+--> Instalacion y preparacion de mi directorio activo para cuando finalice con el ejemplo.
+
+Dia 7 - 8 de Mayo
+
+--> Terminar con la prueba del ejemplo de como conectar remotamente con Active Directory.
+
 --------------------
 
 1 -->Analisis contexto
