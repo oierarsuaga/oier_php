@@ -50,6 +50,18 @@ Dia 10 - 14 de Mayo
 
 --> Comenzar con la creacion del diseño de la pagina web.
 
+Dia 11 - 18 de Mayo
+
+--> Continuar con la creacion del diseño de la pagina web.
+
+Dia 12 - 19 de Mayo
+
+--> Comenzar con la contuccrion de la web.
+
+Dia 13 - 20 de Mayo
+
+--> Comenzar con la contuccrion de la web.
+
 
 --------------------
 
