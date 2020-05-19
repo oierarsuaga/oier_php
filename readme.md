@@ -38,6 +38,8 @@ Dia 7 - 8 de Mayo
 
 --> Terminar con la prueba del ejemplo de como conectar remotamente con Active Directory.
 
+aS
+
 --------------------
 
 1 -->Analisis contexto
