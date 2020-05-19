@@ -38,17 +38,26 @@ Dia 7 - 8 de Mayo
 
 --> Terminar con la prueba del ejemplo de como conectar remotamente con Active Directory.
 
-aS
+Dia 8 - 12 de Mayo
+
+--> Hacer la documentacion del proyecto, pensar y creat la simulacion de la empresa y sus características.
+
+Dia 9 - 13 de Mayo
+
+--> Terminar con las características de la empresa.
+
+Dia 10 - 14 de Mayo
+
+--> Comenzar con la creacion del diseño de la pagina web.
+
 
 --------------------
 
 1 -->Analisis contexto
 
 ¿A dónde quieres encaminar tu web? ¿Cuáles serían los objetivos?
-  -La pagina web comenzara con un login simple que los datos de usuario corresponden al AD del servidor. Cuando el
-trabajador registre sus credenciales correctamente tendra acceso a la base de datos de clientes y sus modificaciones.
-  -La pagina web a realizar tendra que cumplir con el objetivo de que un trabajador pueda agregar, modificar, eliminar
-o visualizar los datos de clientes
+  -La pagina web comenzara con un login simple que los datos de usuario corresponden al AD del servidor. Cuando el trabajador registre sus credenciales correctamente tendra acceso a la base de datos de clientes y sus modificaciones.
+  -La pagina web a realizar tendra que cumplir con el objetivo de que un trabajador pueda agregar, modificar, eliminar o visualizar los datos de clientes
 
 ¿En que sector lo sitúas?
   -El sector de la empresa es el sector de las telecomunicaciones, pudiendo ser como ejemplo cualquier compañia de telefonia.
@@ -73,3 +82,12 @@ o visualizar los datos de clientes
 
 ¿A dónde crees que se encamina ese sector?
   -Pues sinceramente no lo se.
+
+
+  --------------------
+
+  2 --> Empresa:
+
+  La empresa se llama La Nueva Onda SL, esta empresa se dedica a la telefonia movil y por lo tanto gestiona una gran cantidad de clientes en la base de datos y debe de dar todas las facilidades a sus trabajadores a la hora de buscar nuevos clientes y notificar nuevas promociones a sus clientes.
+  <br>
+  <h1>Logo</h1>
