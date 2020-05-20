@@ -103,3 +103,6 @@ Dia 13 - 20 de Mayo
   La empresa se llama La Nueva Onda SL, esta empresa se dedica a la telefonia movil y por lo tanto gestiona una gran cantidad de clientes en la base de datos y debe de dar todas las facilidades a sus trabajadores a la hora de buscar nuevos clientes y notificar nuevas promociones a sus clientes.
   <br>
   <h1>Logo</h1>
+  <br>  
+  <br>
+  <h1>Esquema de la base de datos</h1>
