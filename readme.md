@@ -105,7 +105,7 @@ Dia 13 - 20 de Mayo
   <h1>Logo</h1>
   <br>  
   <br>
-  <img src="Logo.png">
+  <img src="Web_FCT/Proyecto_FCT/Logo.png">
   <br>  
   <br>
   <h1>Esquema de la base de datos</h1>
