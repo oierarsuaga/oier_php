@@ -43,7 +43,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-     echo "<br> Nombre-->" . $row["Nombre"] . "<br> Apellido-->" . $row["Apellido"]. "<br> Email-->" . $row["Email"]. "<br> Direccion-->" . $row["Direccion"]. "<br> Fecha de nacimiento-->" . $row["Fecha de nacimiento"]. "<br> Telefono-->" . $row["Telefono"]. "<br> Num_bancario-->" . $row["Num_bancario"];
+     echo "<br> Nombre-->" . $row["Nombre"] . "<br> Apellido-->" . $row["Apellido"]. "<br> Email-->" . $row["Email"]. "<br> Direccion-->" . $row["Direccion"]. "<br> Fecha_de_nacimiento-->" . $row["Fecha_de_nacimiento"]. "<br> Telefono-->" . $row["Telefono"]. "<br> Num_bancario-->" . $row["Num_bancario"];
 
 ?>
 <form action="update.php" method="POST">
@@ -63,7 +63,7 @@ if ($result->num_rows > 0) {
   <input type="text" name="Direccion" value="<?php echo $row["Direccion"]?>">
   <br>
   Fecha de nacimiento:<br>
-  <input type="text" name="Fecha de nacimiento" value="<?php echo $row["Fecha de nacimiento"]?>">
+  <input type="text" name="Fecha_de_nacimiento" value="<?php echo $row["Fecha_de_nacimiento"]?>">
   <br>
   Telefono:<br>
   <input type="text" name="Telefono" value="<?php echo $row["Telefono"]?>">
