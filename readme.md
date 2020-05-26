@@ -60,7 +60,23 @@ Dia 12 - 19 de Mayo
 
 Dia 13 - 20 de Mayo
 
---> Comenzar con la contuccrion de la web.
+--> Continuar con la contuccrion de la web.
+
+Dia 14 - 21 de Mayo
+
+--> Continuar con la contuccrion de la web.
+
+Dia 15 - 22 de Mayo
+
+--> Continuar con la contuccrion de la web.
+
+Dia 16 - 25 de Mayo
+
+--> Continuar con la contuccrion de la web.
+
+Dia 17 - 26 de Mayo
+
+--> Continuar con la contuccrion de la web.
 
 
 --------------------
