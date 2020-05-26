@@ -81,12 +81,12 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
-/*echo "<br> <a href='insert.html'><button> Insert </button></a> </br>";
+echo "<br> <a href='insert.html'><button> Insert </button></a> </br>";
 echo "<br> <a href='delete.php'><button> Delete </button></a> </br>";
-echo "<br> <a href='pagina.html'><button> Cerrar sesion </button></a> </br>";
+echo "<br> <a href='Login.php'><button> Cerrar sesion </button></a> </br>";
 
 
-
+/*
 $sql = "SELECT * FROM comentarios";
 $result = $conn->query($sql);
 if ($result->num_rows  > 0) {
