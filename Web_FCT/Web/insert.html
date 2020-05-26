@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+    </style>
+  </head>
+
+
+  <body>
+
+    <form action="insertar.php" method="POST">
+      Nombre:<br>
+      <input type="text" name="Nombre" value="">
+      <br>
+      Apellido:<br>
+      <input type="text" name="Apellido" value="">
+      <br>
+      Email:<br>
+      <input type="text" name="Email" value="">
+      <br>
+      Direccion:<br>
+      <input type="text" name="Direccion" value="">
+      <br>
+      Fecha_de_nacimiento:<br>
+      <input type="text" name="Fecha_de_nacimiento" value="">
+      <br>
+      Telefono:<br>
+      <input type="number" name="Telefono" value="">
+      <br>
+      Num_bancario:<br>
+      <input type="number" name="Num_bancario" value="">
+      <br><br>
+      <input type="submit" value="Insert">
+    </form>
+    <br>
+    <a href="admin_clientes.php">EXIT</a>
+  </body>
+</html>

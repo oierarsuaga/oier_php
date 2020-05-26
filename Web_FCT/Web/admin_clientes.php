@@ -81,8 +81,8 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
-echo "<br> <a href='insert.html'><button> Insert </button></a> </br>";
-echo "<br> <a href='delete.php'><button> Delete </button></a> </br>";
+echo "<br> <a href='insert.html'><button> Crear nuevo cliente </button></a> </br>";
+echo "<br> <a href='delete.php'><button> Eliminar cliente </button></a> </br>";
 echo "<br> <a href='Login.php'><button> Cerrar sesion </button></a> </br>";
 
 
