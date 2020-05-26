@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-05-2020 a las 15:22:14
+-- Tiempo de generación: 26-05-2020 a las 16:27:50
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.1
 
@@ -34,10 +34,18 @@ CREATE TABLE `clientes` (
   `Apellido` varchar(50) CHARACTER SET latin1 COLLATE latin1_spanish_ci NOT NULL,
   `Email` varchar(50) CHARACTER SET latin1 COLLATE latin1_spanish_ci NOT NULL,
   `Direccion` varchar(50) NOT NULL,
-  `Fecha de nacimiento` varchar(50) CHARACTER SET latin1 COLLATE latin1_spanish_ci NOT NULL,
+  `Fecha_de_nacimiento` varchar(50) NOT NULL,
   `Telefono` int(50) NOT NULL,
-  `Nom_bancario` int(50) NOT NULL
+  `Num_bancario` int(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `clientes`
+--
+
+INSERT INTO `clientes` (`ID`, `Nombre`, `Apellido`, `Email`, `Direccion`, `Fecha_de_nacimiento`, `Telefono`, `Num_bancario`) VALUES
+(1, 'Oier', 'Arsuaga', 'oierarsuaga@gmail.com', 'okendo 1º 3B', '1998/11/05', 615398245, 123456789),
+(5, 'Gari', 'Arsuaga', 'gariarsuaga@gmail.com', 'Otalora 2º 3A', '2001/12/05', 615789754, 123565753);
 
 -- --------------------------------------------------------
 
@@ -75,7 +83,7 @@ ALTER TABLE `comentarios`
 -- AUTO_INCREMENT de la tabla `clientes`
 --
 ALTER TABLE `clientes`
-  MODIFY `ID` mediumint(9) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` mediumint(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT de la tabla `comentarios`
