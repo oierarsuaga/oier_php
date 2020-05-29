@@ -21,10 +21,10 @@ a:hover, a:active {
   </head>
 <?php
 include('include/db_con.php');
-session_start();
+/*session_start();
 if (!isset("uid=".$_POST["username"].",dc=example,dc=com")) {
     header('Location: '."Login.php");
-}
+}*/
 $servername = "localhost";
 $username = "root";
 $password = "";
