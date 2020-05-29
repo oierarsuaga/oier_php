@@ -4,21 +4,36 @@
     <meta charset="utf-8">
     <title></title>
     <style>
-    a:link, a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
 
-a:hover, a:active {
-  background-color: red;
-}
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
     </style>
-
   </head>
+
 <?php
 include('include/db_con.php');
 /*session_start();
@@ -35,9 +50,14 @@ $conn = new mysqli($servername, $username, $password,$dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-
-
-
+?>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href='insert.html'>Crear nuevo cliente</a></li>
+  <li><a href='delete.php'>Eliminar cliente</a></li>
+  <li><a href=Login.php>Cerrar sesion</a></li>
+</ul>
+<?php
 $sql = "SELECT * FROM clientes";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -81,9 +101,6 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
-echo "<br> <a href='insert.html'><button> Crear nuevo cliente </button></a> </br>";
-echo "<br> <a href='delete.php'><button> Eliminar cliente </button></a> </br>";
-echo "<br> <a href='Login.php'><button> Cerrar sesion </button></a> </br>";
 
 
 /*
