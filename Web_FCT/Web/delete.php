@@ -50,7 +50,7 @@ if ($conn->connect_error) {
 ?>
 
 <ul>
-  <li><a href="#home">Home</a></li>
+  <li><a href='admin_clientes.php'>Home</a></li>
   <li><a href='insert.html'>Crear nuevo cliente</a></li>
   <li><a class="active" href='delete.php'>Eliminar cliente</a></li>
   <li><a href=Login.php>Cerrar sesion</a></li>
