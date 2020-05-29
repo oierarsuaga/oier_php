@@ -31,7 +31,7 @@ session_start();
 include('include/db_con.php');
 session_start();
 if (!isset($_SESSION['username'])) {
-    header('Location: '."login_signin.php");
+    header('Location: '."login.php");
 }
 
 ---------
@@ -43,3 +43,11 @@ if (!isset($_SESSION['username'])) {
 		</form>
 	</div>
 </div>
+
+
+<h1>Authentication with Active Directory</h1>
+<form action="ldap.php" method="post">
+<input type="text" name="username" /> <br>
+<input type="password" name="password" /> <br>
+<input type="submit" name="Login"/>
+</form>
