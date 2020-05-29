@@ -10,7 +10,8 @@
     </style>
   </head>
   <body>
-    <h1>Authentication with Active Directory</h1>
+    <img src="include/Logo.png">
+    <h1>La Nueva Onda SL</h1>
     <form action="ldap.php" method="post">
     <input type="text" name="username" /> <br>
     <input type="password" name="password" /> <br>
