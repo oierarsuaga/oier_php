@@ -70,3 +70,6 @@ if ($conn->connect_error) {
   <li><a href='delete.php'>Eliminar cliente</a></li>
   <li><a href=Login.php>Cerrar sesion</a></li>
 </ul>
+<br>
+<br>
+<img src="include/Logo.png">
