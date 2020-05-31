@@ -64,7 +64,8 @@ if ($conn->connect_error) {
 }
 ?>
 <ul>
-  <li><a class="active" href='admin_clientes.php'>Home</a></li>
+  <li><a href='home-.php'>Home</a></li>
+  <li><a class="active" href='admin_clientes.php'>Base de datos</a></li>
   <li><a href='insert.html'>Crear nuevo cliente</a></li>
   <li><a href='delete.php'>Eliminar cliente</a></li>
   <li><a href=Login.php>Cerrar sesion</a></li>
