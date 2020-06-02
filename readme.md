@@ -143,6 +143,12 @@ Dia 19 - 2 de Junio
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/base_xa.png">
+  <br>
+  Centrandonos en la parte del codigo de nuestra pagina web primero nos encontraremos con los siguientes dos archivos Login.php y ldap.php estos dos archivos contienen el codigo de la conexion desde nuestra web al servidor del AD usando el metodo Post como podemos observar en la parte izquierda de la foto adjuntada, por el tado contrario el lado derecho contiene el codigo del from donde insertaremos nuestras credenciales para acceder aplicacion.
+  <br>  
+  <br>
+  <img src="Web_FCT/Imagenes_FCT/cod_login.png">
+  <br>
 
   .
   Por el otro ladon servidor de Windows Server 2012
