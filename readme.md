@@ -128,7 +128,6 @@ Dia 19 - 2 de Junio
   .
   Por el otro ladon servidor de Windows Server 2012
 
-
   --------------------
 
 <h3>  2 --> Empresa: </h3>
@@ -146,14 +145,14 @@ Dia 19 - 2 de Junio
   <br>
   <img src="Web_FCT/Imagenes_FCT/Bases.png">
 
+  --------------------
 
+  3 --> Documentacion del Proyecto
 
-    3 --> Documentacion del Proyecto
+  El proyecto esta realizado de la siguiente manera, por una parte encontramos una pagiona web este tiene las siguientes características, Una base de datos SQL con las caracteristicas que en la imagen de la parte superior hemos podido observar.
+  <br>  
+  <br>
+  <img src="Web_FCT/Imagenes_FCT/base_xa.png">
 
-    El proyecto esta realizado de la siguiente manera, por una parte encontramos una pagiona web este tiene las siguientes características, Una base de datos SQL con las caracteristicas que en la imagen de la parte superior hemos podido observar.
-    <br>  
-    <br>
-    <img src="Web_FCT/Imagenes_FCT/Base_xa.png">
-
-    .
-    Por el otro ladon servidor de Windows Server 2012
+  .
+  Por el otro ladon servidor de Windows Server 2012
