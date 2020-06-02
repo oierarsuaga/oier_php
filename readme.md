@@ -123,10 +123,12 @@ Dia 19 - 2 de Junio
   El proyecto esta realizado de la siguiente manera, por una parte encontramos una pagiona web este tiene las siguientes características, Una base de datos SQL con las caracteristicas que en la imagen de la parte superior hemos podido observar.
   <br>  
   <br>
-  <img src="Web_FCT/Imagenes_FCT/Base_xa.png">
+  <img src="Web_FCT/Imagenes_FCT/base_xa.png">
 
   .
   Por el otro ladon servidor de Windows Server 2012
+
+
   --------------------
 
 <h3>  2 --> Empresa: </h3>
