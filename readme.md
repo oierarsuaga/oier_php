@@ -150,6 +150,7 @@ Dia 19 - 2 de Junio
   <br>
   <img src="Web_FCT/Imagenes_FCT/cod_login.png">
   <br>
+  <br>
 
   .
   Por el otro ladon servidor de Windows Server 2012
