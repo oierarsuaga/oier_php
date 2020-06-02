@@ -82,6 +82,9 @@ Dia 18 - 28 de Mayo
 
 --> Continuar con la contuccrion de la web.
 
+Dia 19 - 2 de Junio
+
+--> Comenzar con la documentacion del proyecto.
 
 --------------------
 
@@ -118,7 +121,7 @@ Dia 18 - 28 de Mayo
 
   --------------------
 
-  2 --> Empresa:
+<h3>  2 --> Empresa: </h3>
 
   La empresa se llama La Nueva Onda SL, esta empresa se dedica a la telefonia movil y por lo tanto gestiona una gran cantidad de clientes en la base de datos y debe de dar todas las facilidades a sus trabajadores a la hora de buscar nuevos clientes y notificar nuevas promociones a sus clientes.
   <br>
@@ -132,3 +135,10 @@ Dia 18 - 28 de Mayo
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/Bases.png">
+
+
+    --------------------
+
+    3 --> Documentacion del Proyecto
+
+    El proyecto esta realizado de la siguiente manera, por una parte encontramos una pagiona web y un servidor de Windows Server 2012
