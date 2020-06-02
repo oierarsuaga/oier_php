@@ -137,7 +137,6 @@ Dia 19 - 2 de Junio
   <img src="Web_FCT/Imagenes_FCT/Bases.png">
 
 
-    --------------------
 
     3 --> Documentacion del Proyecto
 
