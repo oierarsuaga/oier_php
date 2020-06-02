@@ -141,4 +141,10 @@ Dia 19 - 2 de Junio
 
     3 --> Documentacion del Proyecto
 
-    El proyecto esta realizado de la siguiente manera, por una parte encontramos una pagiona web y un servidor de Windows Server 2012
+    El proyecto esta realizado de la siguiente manera, por una parte encontramos una pagiona web este tiene las siguientes características, Una base de datos SQL con las caracteristicas que en la imagen de la parte superior hemos podido observar.
+    <br>  
+    <br>
+    <img src="Web_FCT/Imagenes_FCT/Base_xa.png">
+
+    .
+    Por el otro ladon servidor de Windows Server 2012
