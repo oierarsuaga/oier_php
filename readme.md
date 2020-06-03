@@ -149,7 +149,7 @@ Dia 19 - 2 de Junio
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/cod_login.png">
-  <img src="Web_FCT/Imagenes_FCT/cod_login.png">
+  <img src="Web_FCT/Imagenes_FCT/Pag_prin.png">
   <br>
   <br>
 
