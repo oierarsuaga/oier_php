@@ -159,5 +159,16 @@ Dia 19 - 2 de Junio
   <img src="Web_FCT/Imagenes_FCT/Home.png">
   <br>
   <br>
+
+  <br>  
+  <br>
+  <img src="Web_FCT/Imagenes_FCT/cod_read.png">
+  <img src="Web_FCT/Imagenes_FCT/cod_admin.png">
+  <img src="Web_FCT/Imagenes_FCT/inser.png">
+  <br>
+  <br>
+
+
+
   .
   Por el otro ladon servidor de Windows Server 2012
