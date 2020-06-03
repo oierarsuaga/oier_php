@@ -152,6 +152,12 @@ Dia 19 - 2 de Junio
   <img src="Web_FCT/Imagenes_FCT/Pag_prin.png">
   <br>
   <br>
-
+  Despues de añadir correctamente en el anterios from nuestas credenciales del AD nos dirigira al siguiente archivo .php con el nombre fe home_.php cual podremos utilizar para la colocacion de las caracteristicas de las ofertas de la compañia para facilitar la labor y eficiencia de los trabajadores, pero por ahora tiene unicamente el logo de la empresa, ademas como podemos apreciar en la foto de abajo este contienme en la parte superior una barra de navegacion por las diferentes pestañas de la web usando ul y li con sus correspondientes style.  
+  <br>  
+  <br>
+  <img src="Web_FCT/Imagenes_FCT/home_cod.png">
+  <img src="Web_FCT/Imagenes_FCT/Home.png">
+  <br>
+  <br>
   .
   Por el otro ladon servidor de Windows Server 2012
