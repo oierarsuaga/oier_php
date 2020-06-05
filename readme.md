@@ -120,17 +120,17 @@ Dia 19 - 2 de Junio
 
   --------------------
 
-<h3>  2 --> Empresa: </h3>
+  2 --> Empresa: 
 
   La empresa se llama La Nueva Onda SL, esta empresa se dedica a la telefonia movil y por lo tanto gestiona una gran cantidad de clientes en la base de datos y debe de dar todas las facilidades a sus trabajadores a la hora de buscar nuevos clientes y notificar nuevas promociones a sus clientes.
   <br>
-  <h1>Logo</h1>
+  Logo
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/Logo.png">
   <br>  
   <br>
-  <h1>Esquema de la base de datos</h1>
+  Esquema de la base de datos
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/Bases.png">
@@ -138,6 +138,8 @@ Dia 19 - 2 de Junio
   --------------------
 
   3 --> Documentacion del Proyecto
+  <br>
+  3.1-La base de datos
 
   El proyecto esta realizado de la siguiente manera, por una parte encontramos una pagiona web este tiene las siguientes características, Una base de datos SQL con las caracteristicas que en la imagen de la parte superior hemos podido observar.
   <br>  
@@ -175,7 +177,7 @@ Dia 19 - 2 de Junio
   <img src="Web_FCT/Imagenes_FCT/nuevo_cli.png">
   <br>
   <br>
-aaaaaaaaaaaaaaaaaaaaa
+  Como podemos apreciar la siguiente opcion que nos ofrece nuestra barra de navigacion es la de eliminar clientes. Como podemos apreciar en la parte izquierda de la primera foto se encuentran las diferentes caracteristicas que utiliza la barra de navegacion, siguiendo en la misma foto pero el lado contrario podemos ver al comiezo las variables utilizadas para la conexion con la base de datos, a continuacion se encuentra la parte para la barra de navigacion, la ultima parte de la foto nos muestra la consulta SQL realizada en y el from con el que se elimina los clientes. Este boton en un action del archivo delete_art.php que podemos apreciar en la segunda foto y contiene primero la conexion con la base de datos, la consulta SQL (con el que se usa el delete from...) a realizar y el header de a donde redirigiremos.
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/delete_cod.png">
