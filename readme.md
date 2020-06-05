@@ -195,7 +195,7 @@ Dia 19 - 2 de Junio
   <img src="Web_FCT/Imagenes_FCT/delete_cli.png">
   <br>
   <br>
-  3.6-modificar datos de clientes
+  3.7-modificar datos de clientes
   <br>
   Por ultimo tenemos la opcion de actualizar los datos de nuestro cliente por si este realizar cualquier cambio en su vida, esta opcion la encontramos añadida en la parte de base de datos de nuestra barra de navigacion. Para la creacion de esta funcion necesitaremos las siguientes cosas que ademas podeis ver en las sguientes tres imagenes, en la primera poderemos aprecias un from en el que visualizamos todos los datos de nuestro cliente y esta informacion se Visializa en cuadrados donde podremos modifcar dicha informacion y pulsando el boton update este nos ejecutara un actin del archivo update.php este realiza las siguientes 3 cosas principalmente, primero tenemos la conexion con la base de datos, despues tienes la copilacion de las variables que vamos a llegar a utilizar  en la siguiente consulta SQL (la consulta es el de update como vemos en la imagen) que es lo que realiza el boton.
   <br>  
