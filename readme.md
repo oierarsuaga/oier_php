@@ -1,4 +1,4 @@
-Proyecto FCT Oier
+<h1>Proyecto FCT Oier</h1>
 --------------------
 
 La idea idea seria simular una empresa de telefonia en la que disponemos un servidor web interno con nuestras cuentas de usuario ( windows server 2012 AD ) y los datos que esos usuarios agregan de clientes se almacena en la base de datos de sql
@@ -120,7 +120,7 @@ Dia 19 - 2 de Junio
 
   --------------------
 
-  2 --> Empresa: 
+  2 --> Empresa:
 
   La empresa se llama La Nueva Onda SL, esta empresa se dedica a la telefonia movil y por lo tanto gestiona una gran cantidad de clientes en la base de datos y debe de dar todas las facilidades a sus trabajadores a la hora de buscar nuevos clientes y notificar nuevas promociones a sus clientes.
   <br>
