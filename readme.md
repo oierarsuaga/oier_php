@@ -186,6 +186,7 @@ Dia 19 - 2 de Junio
 
   <br>  
   <br>
+  <img src="Web_FCT/Imagenes_FCT/cod_read.png">
   <img src="Web_FCT/Imagenes_FCT/upd_cod.png">
   <img src="Web_FCT/Imagenes_FCT/inser.png">
   <br>
