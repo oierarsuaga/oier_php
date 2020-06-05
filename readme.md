@@ -159,7 +159,7 @@ Dia 19 - 2 de Junio
   <img src="Web_FCT/Imagenes_FCT/Home.png">
   <br>
   <br>
-
+  Dentro de las funciones principales de nuestra web se encuentra la siguiente pestaña el cual esta nombrado de la siguiente manera admin_clientes.php, su funcion principal es poner de una manera sencilla y visualmente claro cuales son los clientes que posee la empresa y los datos de cada uno. Como podemos observar en la primera imagen de abajo en las lineas desde el 74 al 79 se realizar una consulta sql del tipo select, por lo contrario el from que encontramos despues sirven para la modificacion de los datos del cliente pero lo explicamos mas adelante. La segunda foto contiene el codigo de la misma pestaña pero en esta imagen podemos apreciar los diferentes style que contiene esa pestaña en concreto, aparte contiene la coneccion con la base de datos desde la linea 58 asta 63. Por ultimo como podemos ver en la ultima foto asi es como se ve esta pestaña en nuestro buscador.
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/cod_read.png">
@@ -191,5 +191,3 @@ Dia 19 - 2 de Junio
   <img src="Web_FCT/Imagenes_FCT/inser.png">
   <br>
   <br>
-  .
-  Por el otro ladon servidor de Windows Server 2012
