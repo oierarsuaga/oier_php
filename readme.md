@@ -167,7 +167,7 @@ Dia 19 - 2 de Junio
   <img src="Web_FCT/Imagenes_FCT/inser.png">
   <br>
   <br>
-aaaaaaaaaaaaaaaaaaaaa
+  Continuando con la documentacion de la web podremos encontrar los dos siguientes archivos cuales se llaman insert.html y insertar.php. En el archivo .html podemos encontrar una estructura similar al from del update pero este es diferentes porque este from sirve para la insercion de nuevos clientes a la base de datos y tienes los style para que se pueda ver como en la ultima foto. En el archivo .php podemos encontrar la coneccion con la base de datos que sigue la misma estructuraque las anteriores va desde la linea 2 asta la linea 16. Por el otro lado despuesde la conexion tenemos las lineas donde se las funciones y se les asigna un nombre y despues podemos apreciar el comando SQL pero esta vez tenemos el de insert into con sus correspondientes datos. Y en la ultima foto podemos apreciar como se ve la parte de la insercion  en la web.
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/inser_html.png">
