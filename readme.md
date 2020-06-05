@@ -88,7 +88,7 @@ Dia 19 - 2 de Junio
 
 --------------------
 
-1 -->Analisis contexto
+<h2>1 -->Analisis contexto </h2>
 
 ¿A dónde quieres encaminar tu web? ¿Cuáles serían los objetivos?
   -La pagina web comenzara con un login simple que los datos de usuario corresponden al AD del servidor. Cuando el trabajador registre sus credenciales correctamente tendra acceso a la base de datos de clientes y sus modificaciones.
