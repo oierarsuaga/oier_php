@@ -168,7 +168,27 @@ Dia 19 - 2 de Junio
   <br>
   <br>
 
+  <br>  
+  <br>
+  <img src="Web_FCT/Imagenes_FCT/inser_html.png">
+  <img src="Web_FCT/Imagenes_FCT/inser_cod.png">
+  <img src="Web_FCT/Imagenes_FCT/nuevo_cli.png">
+  <br>
+  <br>
 
+  <br>  
+  <br>
+  <img src="Web_FCT/Imagenes_FCT/delete_cod.png">
+  <img src="Web_FCT/Imagenes_FCT/delete_cod2.png">
+  <img src="Web_FCT/Imagenes_FCT/delete_cli.png">
+  <br>
+  <br>
 
+  <br>  
+  <br>
+  <img src="Web_FCT/Imagenes_FCT/upd_cod.png">
+  <img src="Web_FCT/Imagenes_FCT/inser.png">
+  <br>
+  <br>
   .
   Por el otro ladon servidor de Windows Server 2012
