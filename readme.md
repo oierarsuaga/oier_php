@@ -167,7 +167,7 @@ Dia 19 - 2 de Junio
   <img src="Web_FCT/Imagenes_FCT/inser.png">
   <br>
   <br>
-
+aaaaaaaaaaaaaaaaaaaaa
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/inser_html.png">
@@ -175,7 +175,7 @@ Dia 19 - 2 de Junio
   <img src="Web_FCT/Imagenes_FCT/nuevo_cli.png">
   <br>
   <br>
-
+aaaaaaaaaaaaaaaaaaaaa
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/delete_cod.png">
@@ -183,7 +183,7 @@ Dia 19 - 2 de Junio
   <img src="Web_FCT/Imagenes_FCT/delete_cli.png">
   <br>
   <br>
-
+aaaaaaaaaaaaaaaaaaaaa
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/cod_read.png">
