@@ -86,6 +86,18 @@ Dia 19 - 2 de Junio
 
 --> Comenzar con la documentacion del proyecto.
 
+Dia 20 - 3 de Junio
+
+--> Comenzar con la documentacion del proyecto.
+
+Dia 21 - 4 de Junio
+
+--> Comenzar con la documentacion del proyecto.
+
+Dia 22 - 8 de Junio
+
+--> Finalizar con la documentacion del proyecto.
+
 --------------------
 
 <h3>1 -->Analisis contexto </h3>
@@ -141,7 +153,7 @@ Dia 19 - 2 de Junio
   <br>
   3.1-La base de datos
   <br>
-  El proyecto esta realizado de la siguiente manera, por una parte encontramos una pagiona web este tiene las siguientes características, Una base de datos SQL con las caracteristicas que en la imagen de la parte superior hemos podido observar.
+  El proyecto esta realizado de la siguiente manera, por una parte encontramos una pagiona web este tiene las siguientes características, Una base de datos SQL con las caracteristicas que en la imagen de la parte superior hemos podido observar. Esta tiene las siguientes características el campo llamado ID es la clave plincipal de la tabla clientes cual tiene 8 campos, estos estan organizados de la siguiente forma, nombre, apellido, email, direccion y fecha de nacimiento son del tipo varchar con un numero maximo de 50 caracteres y luego encontramos los campos telefono o numero bancario que son tipo int.
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/base_xa.png">
