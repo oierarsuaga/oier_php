@@ -161,7 +161,7 @@ Dia 22 - 8 de Junio
   <br>
   3.2-Servidor AD
   <br>
-
+  Como podemos apreciaren la foto de abajo estan las caracteristicas que nuestro servidor AD utiliza.
   <br>  
   <br>
   <img src="Web_FCT/Imagenes_FCT/ad.png">
