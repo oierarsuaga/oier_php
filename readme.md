@@ -151,6 +151,14 @@ Dia 22 - 8 de Junio
 
   <h3>3 --> Documentacion del Proyecto</h3>
   <br>
+  3.1-Servidor AD
+  <br>
+
+  <br>  
+  <br>
+  <img src="Web_FCT/Imagenes_FCT/ad.png">
+  <br>
+  <br>
   3.2-La base de datos
   <br>
   El proyecto esta realizado de la siguiente manera, por una parte encontramos una pagiona web este tiene las siguientes características, Una base de datos SQL con las caracteristicas que en la imagen de la parte superior hemos podido observar. Esta tiene las siguientes características el campo llamado ID es la clave plincipal de la tabla clientes cual tiene 8 campos, estos estan organizados de la siguiente forma, nombre, apellido, email, direccion y fecha de nacimiento son del tipo varchar con un numero maximo de 50 caracteres y luego encontramos los campos telefono o numero bancario que son tipo int.
